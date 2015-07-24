@@ -1,5 +1,7 @@
 # gulp-json-refs
 
+[![Join the chat at https://gitter.im/scott-morris/gulp-json-refs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/scott-morris/gulp-json-refs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Gulp wrapper for [json-refs] - Various utilities for [JSON References][json-reference-draft-spec], and [JSON Pointers][json-pointer-spec] since JSON
 References are part JSON Pointer.
 
