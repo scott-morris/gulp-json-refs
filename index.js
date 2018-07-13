@@ -20,6 +20,7 @@ module.exports = function(opts) {
         }
     };
 
+    JsonRefs.clearCache();
     JsonRefs.resolveRefsAt(file.path, options).then(function (results) {
       var output = (options.yaml) ? YAML.safeDump(results.resolved, {noRefs: true}) : JSON.stringify(results.resolved);
       file.contents = new Buffer(output);
